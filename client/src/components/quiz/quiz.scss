@@ -1,0 +1,18 @@
+.Quiz {
+  &-Footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    align-items: center;
+    padding: 11px 16px;
+  }
+
+  &-Reset,
+  &-Home {
+    height: 40px;
+    border-radius: 6px;
+    padding: 6px 11px;
+    background-color: var(--background-accent);
+  }
+}

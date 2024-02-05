@@ -1,0 +1,26 @@
+#root {
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+
+  width: 100vw;
+  height: 100vh;
+  --text-primary: black;
+  --text-secondary: #afafaf;
+
+  --border-primary: #afafaf;
+
+  --background-secondary: rgb(132, 216, 255);
+  --border-secondary: rgb(24, 153, 214);
+
+  --background-accent: rgb(165, 237, 110);
+  --border-accent: rgb(88, 167, 0);
+
+  --background-correct: rgb(165, 237, 110);
+  --border-correct: rgb(88, 167, 0);
+
+  --background-incorrect: rgb(237, 110, 110);
+  --border-incorrect: rgb(167, 0, 0);
+
+  --background-disabled: rgb(206, 206, 206);
+}

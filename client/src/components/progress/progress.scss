@@ -1,0 +1,13 @@
+.Progress {
+  height: 16px;
+  width: 100%;
+  border-radius: 1000px;
+  background-color: var(--background-disabled);
+
+  &-Current {
+    border-radius: 1000px;
+    height: 16px;
+    background-color: var(--background-accent);
+    transition: width 0.3s ease;
+  }
+}

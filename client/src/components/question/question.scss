@@ -1,0 +1,47 @@
+.Question {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  &-Title {
+    color: var(--text-primary);
+    font-size: 32px;
+  }
+  &-Answers {
+    display: flex;
+    gap: 8px;
+  }
+
+  &-Footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    align-items: center;
+    padding: 11px 16px;
+    &_withNext {
+      justify-content: end;
+    }
+  }
+
+  &-Button {
+    height: 40px;
+    border-radius: 6px;
+    padding: 6px 11px;
+  }
+
+  &-Submit {
+    background-color: var(--background-accent);
+    &_disabled {
+      background-color: var(--background-disabled);
+    }
+  }
+
+  &-Skip {
+    background-color: var(--background-disabled);
+  }
+
+  &-Next {
+    background-color: var(--background-accent);
+  }
+}

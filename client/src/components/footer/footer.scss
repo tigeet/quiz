@@ -1,0 +1,21 @@
+.Footer {
+  display: flex;
+
+  width: 100%;
+
+  align-items: center;
+  padding: 11px 16px;
+
+  &_variant_one,
+  &_variant_many {
+    justify-content: flex-start;
+
+    &.Footer_align_right {
+      justify-content: flex-end;
+    }
+  }
+
+  &_variant_two {
+    justify-content: space-between;
+  }
+}

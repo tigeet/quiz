@@ -1,0 +1,20 @@
+.wrapper {
+  position: relative;
+}
+
+.point {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(-50%, -50%);
+}
+
+.point.animated {
+  transition: left 0.3s ease, top 0.3s ease;
+}
+
+.button {
+  border-radius: 6px;
+  padding: 11px 16px;
+  background-color: var(--background-accent);
+}

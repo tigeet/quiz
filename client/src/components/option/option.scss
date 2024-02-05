@@ -1,0 +1,27 @@
+.Option {
+  cursor: pointer;
+  display: flex;
+  width: 128px;
+  height: 128px;
+  padding: 16px;
+  border-radius: 6px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--border-primary);
+
+  &_selected {
+    border-color: var(--border-secondary);
+    background-color: var(--background-secondary);
+  }
+
+  &_correct {
+    border-color: var(--border-correct);
+    background-color: var(--background-correct);
+  }
+
+  &_error {
+    border-color: var(--border-incorrect);
+    background-color: var(--background-incorrect);
+  }
+}
